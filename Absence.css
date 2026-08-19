@@ -1,0 +1,25 @@
+form{
+    background-color:aliceblue;
+    border:2px solid aliceblue;
+    padding:50px;
+    width:50%
+    
+}
+form h1, h4 {
+    text-align:center;
+}
+form input{
+    border:none;
+    border-bottom:2px solid;
+    outline: none;
+    font-size: medium;
+}
+form button{
+    background-color: blue;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: medium;
+}
+form ::placeholder{
+    color:red;
+}
