@@ -2,7 +2,7 @@ form{
     background-color:aliceblue;
     border:2px solid aliceblue;
     padding:50px;
-    width:50%
+    width:50%;
     
 }
 form h1, h4 {
@@ -14,11 +14,25 @@ form input{
     outline: none;
     font-size: medium;
 }
-form button{
+form button {
     background-color: blue;
-    border-radius: 50px;
+    padding:10px;
+    border-radius: 20px;
+    width:100px;
+    cursor: pointer;
     color: aliceblue;
-    font-size: medium;
+    font-size:x-large;
+}
+.btn{
+    background-color: #6c757d;
+    color: aliceblue;
+    padding:10px;
+    border-radius: 20px;
+    width:100px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size:x-large;
+
 }
 form ::placeholder{
     color:red;
