@@ -3,6 +3,8 @@ form{
     border:2px solid aliceblue;
     padding:50px;
     width:50%;
+    margin:auto;
+    font-size:20px;
     
 }
 form h1, h4 {
@@ -14,6 +16,12 @@ form input{
     outline: none;
     font-size: medium;
 }
+form img{
+    width:200px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
 form button {
     background-color: blue;
     padding:10px;
@@ -23,16 +31,21 @@ form button {
     color: aliceblue;
     font-size:x-large;
 }
+form button:hover{
+    background-color: darkblue;
+}
 .btn{
-    background-color: #6c757d;
+    background-color: gray;
     color: aliceblue;
     padding:10px;
     border-radius: 20px;
     width:100px;
-    margin-left: 100px;
+    margin-left: 500px;
     cursor: pointer;
     font-size:x-large;
-
+}
+.btn:hover{
+    background-color:#6c757d;
 }
 form ::placeholder{
     color:red;
