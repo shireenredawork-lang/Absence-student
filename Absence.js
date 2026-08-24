@@ -37,7 +37,7 @@ function intform(){
            otherinput.focus();
             error = true;
         }
-        if(error)
+        if(error)  //if(error===(true))
             {
                 return false;
             }
